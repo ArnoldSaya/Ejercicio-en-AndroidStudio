@@ -1,0 +1,7 @@
+Este programa es una aplicación Android que permite al usuario seleccionar un nombre de imagen desde un Spinner en la primera actividad. Al presionar el botón "Siguiente", la aplicación navega a una segunda actividad que muestra la imagen correspondiente al nombre seleccionado. En esta segunda pantalla, 
+se muestra la imagen junto con un botón "Volver" que permite regresar a la primera actividad manteniendo la selección original del Spinner. El uso de Intent se encarga de pasar la información de la imagen seleccionada entre las actividades. 
+El programa también se asegura de que la selección y el estado de la aplicación no se pierdan cuando se gira el dispositivo, preservando así la experiencia del usuario.
+
+El problema planteado es crear una aplicación con una interfaz que permita elegir entre varias imágenes y mostrar la seleccionada en una nueva actividad. Además, al regresar a la primera actividad, 
+el programa debe recordar la opción previamente seleccionada en el Spinner. Esto implica manejar correctamente la navegación entre actividades y conservar el estado de la aplicación, 
+incluso cuando el dispositivo cambia de orientación.
