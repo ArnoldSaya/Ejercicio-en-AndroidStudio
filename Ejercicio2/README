@@ -1,1 +1,4 @@
-
+En la aplicación Android que estoy desarrollando, el usuario puede seleccionar un audio desde un Spinner en la primera pantalla y luego presionar el botón "Seleccionar" para navegar a una segunda pantalla.
+En esta segunda pantalla, se muestra la imagen y el nombre del audio seleccionado, junto con botones para reproducir, pausar y detener el audio. La aplicación asegura que la selección del Spinner se mantenga al regresar a 
+la primera pantalla, incluso si el dispositivo cambia de orientación, 
+permitiendo una experiencia fluida y continua en la interacción con los audios.
