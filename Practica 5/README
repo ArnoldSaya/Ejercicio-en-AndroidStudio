@@ -1,0 +1,10 @@
+Esta es una aplicación de música en Android que permite a los usuarios seleccionar canciones de una lista, ver detalles y reproducirlas.
+La app se organiza en fragmentos: el SongSelectionFragment muestra una lista de canciones con sus imágenes y duraciones, mientras que el PlayerFragment permite reproducir, 
+pausar y detener la canción seleccionada. La navegación entre fragmentos se maneja desde la MainActivity, que carga el fragmento de selección al inicio y el fragmento de reproducción al seleccionar una canción.
+La lista de canciones se maneja con un adaptador personalizado (SongListAdapter), y cada canción está representada por un objeto Song que incluye el nombre, la imagen, la duración y el recurso de audio.
+
+
+
+
+
+
